@@ -5,8 +5,8 @@ using UnityEngine;
 public class GoalMovement : MonoBehaviour
 {
 
-    public float moveSpeed = 1.0f;
-    public float amplitude = 1.0f;
+    public float moveSpeed = 2.0f;
+    public float amplitude = 0.5f;
     private Vector3 startPos;
 
 
