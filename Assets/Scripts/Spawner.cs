@@ -26,7 +26,7 @@ public class Spawner : MonoBehaviour
             {
                 Debug.Log("Row" + i + ",Column" + j + ":" + coins[i, j]);
                 Vector3 positionOffset = new Vector3(i, 0, j);
-                coins[i,j] = Instantiate(coinPrefab, positionOffset, Quaternion.identity, this.transform);
+                coins[i, j] = Instantiate(coinPrefab, positionOffset, Quaternion.Euler(0, 0, -90));
             }
         }
     }
